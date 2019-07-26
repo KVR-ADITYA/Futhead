@@ -1,0 +1,120 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "futhead",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetPriceOfPlayer",
+          "slots": [
+            {
+              "name": "player",
+              "type": "player"
+            }
+          ],
+          "samples": [
+            "what is the price of the {player}",
+            "What is the release clause of {player}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Kai Havertz"
+              }
+            },
+            {
+              "name": {
+                "value": "Federico Cheisa"
+              }
+            },
+            {
+              "name": {
+                "value": "Carles Alena"
+              }
+            },
+            {
+              "name": {
+                "value": "Marc Cucurella"
+              }
+            },
+            {
+              "name": {
+                "value": "Riqui Puig"
+              }
+            },
+            {
+              "name": {
+                "value": "Christian Frutchl"
+              }
+            },
+            {
+              "name": {
+                "value": "Jann Feite Arp"
+              }
+            },
+            {
+              "name": {
+                "value": "Angle Gomez"
+              }
+            },
+            {
+              "name": {
+                "value": "Kun Aguero"
+              }
+            },
+            {
+              "name": {
+                "value": "Ethan Ampadu"
+              }
+            },
+            {
+              "name": {
+                "value": "Bruno Fernandes"
+              }
+            },
+            {
+              "name": {
+                "value": "Keireian Tiereiny"
+              }
+            },
+            {
+              "name": {
+                "value": "Ruben Neves"
+              }
+            },
+            {
+              "name": {
+                "value": "Joao Felix"
+              }
+            }
+          ],
+          "name": "player"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}

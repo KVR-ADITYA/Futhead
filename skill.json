@@ -1,0 +1,21 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:ap-northeast-1:501354989832:function:serverlessrepo-futHead-alexaskillskitnodejsfactski-19O8XWCM2IQ9P",
+          "sourceDir": "lambda\\ap-northeast-1_serverlessrepo-futHead-alexaskillskitnodejsfactski-19O8XWCM2IQ9P"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "name": "FutHead"
+        }
+      }
+    }
+  }
+}
